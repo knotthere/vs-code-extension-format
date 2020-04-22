@@ -1,3 +1,21 @@
+# Format All Files
+
+I wanted to make some changes accross all files in a project (using Format Document), but VSCode does not provide for this.
+
+So, I took the following sample extension code, and tweaked it to do this for me.
+
+The sequence is:
+1. Tweak [extension.js](./extension.js) to process the files of interest
+2. `Run Extension`
+3. In the new VSCode window, open the project to run this on
+4. CMD-Shift-P and run `Format All Documents`
+
+---
+---
+_Original README.md:_
+
+---
+
 # Hello World Minimal Sample
 
 This is a minimal version of the [Hello World Sample](../helloworld-sample).
